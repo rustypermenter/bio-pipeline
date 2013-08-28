@@ -3,17 +3,7 @@
 %pylab 
 import numpy as np
 
-f = open('Lumi.2760.csv')
-g = f.readlines()
-f.close()
-
-h = np.empty((8,12))
-
-for i in range(8):
-    h[i] = g[i+1].split(',')[1:]
-
-imshow(h)
-colorbar()
+f colorbar()
 
 f = open('2013-05-24-2760-2763.txt')
 g = f.readlines()
